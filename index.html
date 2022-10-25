@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Claudio Sousa</title>
+    <title>Portfolio - Muryllo Vieira</title>
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/section-title.css">
+    <link rel="stylesheet" href="./css/projeto.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/back.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,9 +29,9 @@
 
     <header>
         <div class="logo">
-            claudiosousa
+            muryllovieira
         </div>
-        <nav >
+        <nav>
             <ul class="menu">
                 <li><a href="#home">Início</a></li>
                 <li><a href="#sobre-mim">Sobre mim</a></li>
@@ -39,11 +43,14 @@
     </header>
 
     <main>
+        <a href="#home" class="back">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
         <section class="home" id="home">
-            <img src="./img/Eu.png" alt="foto" class="home__photo">
+            <img src="./img/fotocirculo.png" alt="foto" class="home__photo">
             <div>
                 <span class="home__text">Olá, meu nome é</span>
-                <h1 class="home__name">Claudio Sousa</h1>
+                <h1 class="home__name">Muryllo Vieira</h1>
                 <span class="home__text">e sou desenvolvedor FrontEnd</span>
             </div>
         </section>
@@ -51,7 +58,8 @@
             <h2 class="section-title">Sobre Mim</h2>
             <div class="description">
                 <h3 class="description__title">Quem sou?</h3>
-                <p class="description__text">Sou iniciante na área de criação e manutenção de sites, tenho conhecimento em prototipação designer sempre pensando na experiência do usuário. Sou apaixonado pelo mundo digital e desenvolvimento, sempre procurando inspiração nos meus colegas de trabalho e no mundo que me rodeia.</p>
+                <p class="description__text">Sou iniciante na área de criação e manutenção de sites, tenho conhecimento em prototipação designer sempre pensando na experiência do usuário. Sou apaixonado pelo mundo digital e desenvolvimento, sempre procurando inspiração nos meus colegas
+                    de trabalho e no mundo que me rodeia.</p>
             </div>
             <div class="skills">
                 <div class="skills__title">Skills</div>
@@ -83,13 +91,100 @@
                 </div>
             </div>
         </section>
-        <section class="projetos" id="projetos"></section>
-        <section class="contato" id="contato"></section>
+        <section class="projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="card-container">
+                <a href="https://github.com/muryllovieira/headphone-purple" target="_blank" class="card">
+                    <img src="./img/headpurple.png" alt="HeadPhone Purple">
+                </a>
+                <a href="https://github.com/muryllovieira/meu-site-valorant" target="_blank" class="card">
+                    <img src="./img/valorant.png" alt="Valorant">
+                </a>
+                <a href="https://github.com/muryllovieira/headphone-purple" target="_blank" class="card">
+                    <img src="./img/headpurple.png" alt="HeadPhone Purple">
+                </a>
+                <a href="https://github.com/muryllovieira/meu-site-valorant" target="_blank" class="card">
+                    <img src="./img/valorant.png" alt="Valorant">
+                </a>
+                <a href="https://github.com/muryllovieira/headphone-purple" target="_blank" class="card">
+                    <img src="./img/headpurple.png" alt="HeadPhone Purple">
+                </a>
+                <a href="https://github.com/muryllovieira/meu-site-valorant" target="_blank" class="card">
+                    <img src="./img/valorant.png" alt="Valorant">
+                </a>
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                    <h3 class="contato-title">Contato</h3>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(11) 4774-4700</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>muryllovieira59@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>(11) 91065-5332</span>
+                    </div>
+                </li>
+
+            </ul>
+            <ul class="social-container">
+                <li>
+                    <a href="https://www.instagram.com/murylloo_vieira/?next=%2F" target="_blank" class="social-item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://discord.com/" target="_blank" class="social-item">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/muryllo-vieira-a2b79024a/" target="_blank" class="social-item">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/muryllovieira" target="_blank" class="social-item">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="link-container">
+                <li>
+                    <h3 class="link-title">Links</h3>
+                </li>
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#projeto">Projeto</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </section>
     </main>
 
     <footer>
-        footer
-
+        Todos os direitos reservados 2022 | Desenvolvido por Muryllo Vieira
     </footer>
 
 </body>

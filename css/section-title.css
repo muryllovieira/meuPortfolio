@@ -1,0 +1,9 @@
+.section-title {
+    grid-area: title;
+    font-size: clamp(3rem, 18vw, 14rem);
+    text-align: center;
+    background: linear-gradient( #fff, #000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
