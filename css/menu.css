@@ -13,3 +13,23 @@
 li:hover{
     border-bottom: 4px solid var(--primary-color);
 }
+
+/* TABLET */
+@media (max-width:960px){
+    header{
+        max-width: 868px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        display: none;
+    }
+    .menu__bars{
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    
+}
