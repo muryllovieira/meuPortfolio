@@ -92,3 +92,29 @@
         height: 76px;
     }
 }
+
+/* MOBILE */
+@media (max-width:640px){
+    .contato{
+        max-width: 592px;
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .contato-title{
+        display: none;
+    }
+    .contato-item{
+        justify-content: center;
+    }
+    .link-container{
+        align-items: center;
+    }
+    .social-container{
+        display: flex;
+        flex-direction: column;
+        place-self: center;
+    }
+}

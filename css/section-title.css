@@ -7,3 +7,9 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+/* TABLET */
+@media (max-width:960px){
+    .section-title{
+        font-size: clamp(2rem, 16vw, 14rem);
+    }
+}

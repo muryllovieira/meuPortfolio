@@ -55,3 +55,43 @@
         flex-direction: column;
     }    
 }
+/* TABLET */
+@media (max-width:960px){
+    header{
+        max-width: 868px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 92px;
+        font-size: 4rem;
+        background-color: #000;
+        opacity: 0;
+        z-index: 1;
+        transition: all 1s;
+        transform: translateX(100%);        
+    }
+
+    .menu__container.active ~ .menu{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    header{
+        max-width: 592px;
+        width: 100%;
+    }
+}

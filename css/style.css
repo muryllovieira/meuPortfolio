@@ -58,16 +58,20 @@ footer {
     border-top: 2px solid #fff;
 }
 
+
 /* TABLET */
 @media (max-width:960px){   
-    .sobre-mim{
-        height: 1300px;
-    }
     .projetos{
-        height: 3100px;
+        height: 260vh;
     }
 }
 
-/*MOBILE*/
-
-@media (max-width:640px) {}
+/* MOBILE */
+@media (max-width:640px){
+    .sobre-mim{
+        height: 160vh;
+    }
+    .projetos{
+        height: 350vh;
+    }
+}
