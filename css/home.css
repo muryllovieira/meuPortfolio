@@ -39,4 +39,26 @@
         display: flex;
         justify-content: center;
     }
+
+/* MOBILE */
+@media (max-width:640px){
+    .home{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home__text{
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .home__name{
+        font-size: 3rem;
+        color: var(--primary-color);
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }    
+    }
 }
