@@ -95,4 +95,18 @@
         max-width: 592px;
         width: 100%;
     }
+    .card-container a {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-container a img {
+        width: 450px;
+        height: 300px;
+    }
+
+
+
 }
