@@ -38,6 +38,7 @@
 /* TABLET */
 @media (max-width:960px){
     .projetos{
+        height: 3100px;
         max-width: 868px;
         width: 100%;
         display: flex;

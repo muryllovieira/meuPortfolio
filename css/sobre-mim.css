@@ -65,6 +65,7 @@
 /* TABLET */
 @media (max-width:960px){
     .sobre-mim{
+        height: 1200px;
         max-width: 868px;
         width: 100%;
         display: flex;
@@ -82,6 +83,7 @@
 /* MOBILE */
 @media (max-width:640px){
     .sobre-mim{
+        height: 1400px;
         max-width: 592px;
         width: 100%;
     }
