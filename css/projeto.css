@@ -13,6 +13,11 @@
     gap: 48px;
 }
 
+.card-container img {
+    width: 320px;
+    height: 200px;
+}
+
 .card {
     position: relative;
     overflow: hidden;
